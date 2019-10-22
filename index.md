@@ -1,27 +1,8 @@
-## Welcome to GitHub Pages
+## Welcome to my blog
 
-You can use the [editor on GitHub](https://github.com/itslayuh/itslayuh.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-testing 1 2 3 
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
+## Tool Review: Voyant Tools
+  Voyant Tools is a free, web-based textual analysis program which enables its users to perform ‘distance readings’, i.e., to analyze large amounts of text (in either a single work or across multiple) in order to plot the frequency and distribution of certain words or phrases. Doing so makes it easier to identify the patterns that may be latent in certain genres of literature, or other kinds of related corpus. The tool was developed by Geoffrey Rockwell and Stefan Sinclair, who in ‘The Measured Words: How Computers Analyze Text’, offer a helpful overview of how Voyant and other similar programs process the texts fed to them by users. By treating bits of text (words or phrases) as ‘strings’, Voyant can be used “to manipulate [a text] in ways that can be anticipated” by the user. Strings are essentially “sequences of characters that have a beginning and end” which help a program to identify what information it should attempt to represent .
+  For the purpose of textual analysis, Voyant has an edge over similar kinds of tools both in the fact that it is open-access, and in its relative simplicity. The platform’s user interface is fairly straightforward, allowing users to upload text files from their computer, or simply paste in the URLs which contain the texts of interest. Once this data has been inputted, Voyant displays a variety of customizable visualizations (e.g., charts, graphs, word clouds, etc) with which the user can detect trends in the frequency and distribution of words. If a user doesn’t quite understand what the visualizations are meant to say about their texts, Voyant provides helpful explanations accessible by clicking on the question mark symbol. The relative ease with which one can access and use Voyant makes it such that even those who are new to large-scale textual analysis can utilize the platform to yield helpful insights about their corpus. 
+  Critique of Voyant (and other similar platforms) inevitably comes down less on the nature of the platform itself, and more on what it enables users to do, i.e., to perform ‘distance readings’. The debate about the value of distance reading (over the traditional practice of close reading) in the humanities is ongoing, with some arguing that an important degree of nuance is lost when forgoing focused analysis of individual texts for large-scale quantitative mapping. Additionally, some--such as Kathryn Schulz--maintain that “literature is an artificial universe, and the written word, unlike the natural world, can’t be counted on to obey a set of laws”. Schultz’s view does beget the question of why someone interested in--for example--a work of Victorian fiction, even want to analyze, “as many as 60,000 other novels [which] were published in 19th-century England”? In response, Franco Moretti suggests that we (as humanities scholars) ought to recognize the value in distance reading “because its opposite, close reading, can’t uncover the true scope and nature of literature”. Although this might be taken as a contentious claim, if one’s intention is indeed to analyze an inexorably wide swathe of texts, Voyant is an excellent tool for this purpose. 
+  Granted, as Rockwell and Sinclair rightly point out, “computers cannot yet begin to approximate [the] graduate level interpretive skills” that people use when analyzing individual texts. However, this fact is not odds with what tools such as voyant aim to do, i.e., make the process of interpretation significantly easier for one tasked with analyzing a vast corpus of texts. Voyant cannot replace human beings in our role of informed, qualitative analyzers; it can however, enable us to engage with a vast body of textual works in a significantly shorter amount of time than we would be able to otherwise. Used for this particular purpose, Voyant performs exceptionally well.
