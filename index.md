@@ -1,12 +1,14 @@
 ## Welcome To My Blog
 
 
+
+
 ## Dear Data: A week of Sleep and Productivity
 
 
+![image](https://user-images.githubusercontent.com/55146779/68534011-c860f400-02fd-11ea-9c5a-d608fd5e2181.png)
 
-
-
+![image](https://user-images.githubusercontent.com/55146779/68534005-c0a14f80-02fd-11ea-9ef4-36f980cf5213.png)
 
 
 
