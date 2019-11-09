@@ -1,6 +1,15 @@
 ## Welcome To My Blog
 
 
+## Dear Data: A week of Sleep and Productivity
+
+
+
+
+
+
+
+
 ## Tool Review: Voyant Tools
   Voyant Tools is a free, web-based textual analysis program which enables its users to perform ‘distance readings’, i.e., to analyze large amounts of text (in either a single work or across multiple) in order to plot the frequency and distribution of certain words or phrases. Doing so makes it easier to identify the patterns that may be latent in certain genres of literature, or other kinds of related corpus. The tool was developed by Geoffrey Rockwell and Stefan Sinclair, who in ‘The Measured Words: How Computers Analyze Text’, offer a helpful overview of how Voyant and other similar programs process the texts fed to them by users. By treating bits of text (words or phrases) as ‘strings’, Voyant can be used “to manipulate [a text] in ways that can be anticipated” by the user. Strings are essentially “sequences of characters that have a beginning and end” which help a program to identify what information it should attempt to represent .
 	
