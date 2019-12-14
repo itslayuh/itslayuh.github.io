@@ -1,6 +1,46 @@
 ## Welcome To My Blog
 
 
+## Final Project: A Semantic Network of Funding for the Digital Humanities
+![image](https://i.imgur.com/ieZ8zPw.png)
+
+What--if any--is the relationship between neoliberalism and the humanities? Some academics have argued that increase in funding for technology-oriented education represents an assault by external, corporate entities on traditional forms of humanities scholarship. Moreover, some--such as Richard Grusin--have suggested that “it is no coincidence that the digital humanities has emerged as ‘the next big thing’ at the same moment that the neoliberalization and corporatization of higher education has intensified in the first decades of the twenty-first century”. Others have argued against claims such as Grusin’s, e.g., Franco Moretti, who has stated plainly that “the general idea that the digital humanities are aligned with the big tech companies is simply not true”. A direct link between neoliberal interests and the kinds of funding that universities have received in recent times is hard to prove definitively; however, when stepping back to look at broader shifts in what kind of academic pursuits are deemed ‘valuable’, certain concerning patterns do seem to emerge.
+	
+To illustrate these trends and to explore the controversy from a different angle, I used two open-source digital tools (viz., Voyant Tools and Gephi) to create a semantic network from a relevant corpus of text. Specifically, I looked to recent news about changes in funding for the digital humanities at academic institutions, and sought to visualize a network of connected and/or frequently occurring terms. The data I collected for my semantic network was gleaned from the news pages for various colleges and universities; In particular, I was interested in articles which discussed the implementation and/or expansion of the digital humanities in academic contexts. As I skimmed through each article, I began to notice certain commonalities and trends between each, especially in regards to the kinds and sources of funding for digital humanities interests at each institution.
+
+To make the task of analyzing a fairly large corpus easier and more expedient, I used Voyant Tools to perform a distance reading of 20 articles. As expected from prior experience, Voyant made this aspect of the process fairly straightforward; all that inputting my dataset involved was copy-pasting the link for each article into the platform. Once I submitted my data, voyant offered a plethora of useful options for analyzing and displaying the trends it unearthed. In the interest of converting my dataset into a format that would be compatible with Gephi (i.e, a spreadsheet with comma separated values), I used the ‘Corpus Collocates’ tool, which provides “a table view of which terms appear more frequently in proximity to keywords across the entire corpus”. Having narrowed down my corpus to around 70 unique terms which co-occurred frequently, I then attempted to convert my data into a workable format for Gephi in a CSV spreadsheet.
+
+I ran into a considerable amount of unexpected difficulty with this process, primarily in regards to properly organizing my node and edge tables in order to produce the right kind of visualization. There are many detailed guides and tutorials online for how one ought to go about this, but most seem to require a baseline level of knowledge about data that I didn’t have. Although I did eventually figure out what exactly needed to be in the spreadsheets, the process proved to be frustrating, and it took me a long time to manually transform each collocate term into a unique ‘Id’, or node. Regardless, the process of trial and error was a valuable learning experience, finally getting gephi to show me the visualization I was after was highly gratifying.
+	Initially, I intended the visualization of my data to be illustrative of the specific sources and nature of funding for digital humanities departments at academic institutions. Skimming each article, I noticed that certain names occurred more frequently than others, e.g., the Andrew W. Mellon Foundation, which seemed to be the most prolific funder of technology-oriented academic initiatives. However, as previously mentioned, I had quite a bit of difficulty preparing my data spreadsheets correctly for gephi. One such difficulty was that, if I had included the names of each foundation and/or scholarship in conjunction with their collocates, the resulting graph would be so large and complex that it would defeat the purpose of using a visualization for semantic simplicity. Thus, I decided to forgo specific names and focus instead on collocates for more broadly applicable terms. 
+	
+The resulting visualization is organized by the frequency of connections that each term had to another, with the largest nodes representing the most connected terms, and the smallest nodes representing what the larger was most often mentioned in context with. Unsurprisingly, the terms ‘digital’ and ‘humanities’ were the most well-connected nodes, followed by ‘faculty’, ‘research’, ‘students’, ‘university’, ‘projects’ and ‘grant’. What does this say (if anything) about neoliberalism and the humanities? As previously mentioned, this kind of visualization does not prove a direct, tangible link between corporate interests and academic funding; however, it does (in my opinion) showcase how this funding is being used by academic institutions. For example, some of the largest nodes (digital, humanities, research, and grant) are all connected to one another, and each respectively is connected to terms that suggest what universities are doing in the humanities. 
+
+![image](https://i.imgur.com/v9vMUQy.png)
+
+For example, that funding is used for things such as ‘labs’, ‘hubs’, ‘technology’, etc., could be taken as indicative of the shift in humanities towards forms of scholarship traditionally associated with the sciences. Is this bad? Not necessarily-- the application of technological methods in the humanities does not have to entail that traditional forms of humanistic scholarship (such as close-reading) will be rendered obsolete. What academics do with the digital humanities is up to them; funding can certainly steer institutions in particular directions, but it does not force them to abandon the core interests of the humanities. 
+
+
+The Dataset:
+http://www.thedp.com/article/2019/11/digital-humanities-programming-course-restructure-penn
+http://now.etown.edu/index.php/2019/11/08/combining-technology-and-humanities-in-the-digital-humanities-hub/
+https://www.shu.edu/arts-sciences/news/digital-humanities-and-the-liberal-arts-curriculum.cfm
+https://dailyegyptian.com/97866/uncategorized/out-with-ye-olde-and-in-with-the-new-enrollment-in-english-increases/
+http://news.mit.edu/2019/mit-program-digital-humanities-launches-with-mellon-grant-0417
+https://almanac.upenn.edu/articles/2-million-mellon-grant-to-the-price-lab
+https://yaledailynews.com/blog/2018/09/27/new-digital-humanities-lab-to-open/
+https://news.vanderbilt.edu/2019/03/15/mellon-foundation-renews-support-for-center-for-digital-humanities/
+https://newsandfeatures.uncg.edu/digital-humanities-project-325000-neh-grant/
+https://www.manchester.ac.uk/discover/news/major-investment-in-new-digital-humanities-image-viewer/
+https://www.news.ucsb.edu/2019/019613/future-history
+https://columns.wlu.edu/wls-brock-awarded-national-endowment-for-the-humanities-grant/
+https://news.stonybrook.edu/oncampus/digital-humanities-find-a-home-with-gladys-brooks-foundation-gift/
+https://www.xula.edu/singleArticle?articleId=article___news___exemplary
+https://news.uci.edu/2018/12/27/italian-professor-wins-neh-grant/
+https://www.drew.edu/news/2017/11/07/mellon-foundation-grant-fuels-digital-drew-initiative
+https://humanities.arizona.edu/news/transforming-humanities-through-technology
+https://www.baylor.edu/mediacommunications/news.php?action=story&story=189791
+https://msutoday.msu.edu/news/2018/msu-uses-15m-mellon-foundation-grant-to-build-massive-slave-trade-database/
+https://www.brandeis.edu/now/2018/december/neh-grants.html
 
 
 ## Dear Data: A week of Sleep and Productivity
